@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(171, 223, 247);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+     background-color: white;
+    height: 8vh;
+}
+div{
+    margin: 2px;
+}
+.logoBAR a{
+    text-decoration: none;
+    font-size: 2rem;
+    
+}
+.optionBAR a{
+    text-decoration: none;
+    margin:10px;
+
+}
+.optionBAR a:nth-of-type(1)
+{
+    color: blue;
+}
+.optionBAR a:hover{
+    color: blue;
+}
+.iconBAR{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.iconBAR i{
+    margin: 10px;
+    color: grey;
+}
+.monika{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+    background-color: white;
+    height: 8vh;
+    border-radius: 10px;
+    
+}
+.monika i{
+    color: blue;
+    
+}
+.sharma a{
+    border:.5px solid rgb(199, 195, 195);
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(221, 221, 242);
+    border-radius: 5px;
+
+    
+}
+.sharma{
+    cursor:text;
+}
+button{
+    height: 8vh;
+    background-color: rgb(208, 208, 245);
+    border-color: white;
+    color:azure;
+
+}
+.monika div:nth-of-type(6){
+    border-radius: 10px;
+}
+.navigationBAR pre{
+    line-height:30px ;
+    
+}
+.navigationBAR button{
+    padding: 5px;
+    border-radius: 10px;
+    height: 2rem;
+}
+.gridMonika div a{
+    text-decoration: none;
+    color:burlywood
+}
+.gridMonika div{
+    height: 300px;
+    width:400px;
+}
+.gridMonika a{
+    text-decoration: none;
+    background-color: beige;
+    color: rgb(24, 24, 243);
+}
+.gridMonika div {
+    margin: 4px;
+    background-color: white;
+    border-radius: 10px;padding: 10px;
+}
+.gridMonika button{
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.gridMonika div:hover{
+    transform: scale(1.02);
+}
+.createjob{
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 10px;
+}
+.navigationBAR{
+    padding: 20px;
+}
+.navigationBAR button{
+    padding: 5px;
+    border-radius: 10px;
+    height: 2rem;
+}
+.sharma a{
+    text-decoration: none;
+    color:black;
+}
+.box div{
+   display: flex;
+   width: 300px;
+   justify-content: space-between;
+   background-color: rgb(214, 184, 184);
+   padding: 10px;
+   align-items: center;
+   margin: 10px;
+
+}
+.box div div{
+    display: flex;
+    flex-direction: column;
+}
+.box div img{
+    height: 2rem
+}
+#call{
+    display: flex;
+}
